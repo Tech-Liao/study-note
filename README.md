@@ -1,2 +1,1 @@
-# study-note
-Record the study of computer science
+Test mac ssh git
