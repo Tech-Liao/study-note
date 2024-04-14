@@ -8,3 +8,16 @@
 
 不能对io类型的变量进行拷贝,例如在函数传参时,只能用引用方式对io类型变量来操作,且参数不能设置为const.因为在操作流时总会发生状态变化.
 
+IO条件状态:
+
+![image-20240319074215522](https://gitee.com/tech-Hao/mac_picgo/raw/master/202403190742763.png)
+
+badbit表示系统级错误,不可修复的错误,一旦被置位就无法使用io.failbit表示可恢复错误,错误被修正后可继续使用io.
+
+当badbit,failbit,eofbit被置位,作为条件的io流都会被判错.
+
+
+
+## 文件IO
+
+## string流
